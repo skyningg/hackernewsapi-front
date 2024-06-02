@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // 2
 const httpLink = createHttpLink({
-  uri: 'https://speedy-method-417715.ue.r.appspot.com/graphql/'
+  uri: 'http://34.174.30.44:9001/graphql/'
 });
 
 const authLink = setContext((_, { headers }) => {
